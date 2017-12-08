@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseRedPill.Service", "ExerciseRedPill.Service\ExerciseRedPill.Service.csproj", "{C08EC2B0-6F11-4A60-8A86-7806D8C9094D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseRedPill.Service.Endpoint", "ExerciseRedPill.Service.Endpoint\ExerciseRedPill.Service.Endpoint.csproj", "{BFBD1714-C5F5-43AC-A287-6B60B84A3580}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExerciseRedPill.Assets", "ExerciseRedPill.Assets", "{E239E42C-A132-49E3-BA60-51CD771DB622}"
+	ProjectSection(SolutionItems) = preProject
+		ExerciseRedPill.Assets\output.config = ExerciseRedPill.Assets\output.config
+		ExerciseRedPill.Assets\RedPill.cs = ExerciseRedPill.Assets\RedPill.cs
+		ExerciseRedPill.Assets\RedPill.svc = ExerciseRedPill.Assets\RedPill.svc
+		ExerciseRedPill.Assets\RedPill.wsdl = ExerciseRedPill.Assets\RedPill.wsdl
+		ExerciseRedPill.Assets\RedPill.xml = ExerciseRedPill.Assets\RedPill.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0B498B24-81D2-4745-8297-3699E81B3D90}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseRedPill.Service.Business", "ExerciseRedPill.Service.Business\ExerciseRedPill.Service.Business.csproj", "{1D661DEC-5190-4C81-8728-6D5185AE4711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "knockknock.readify.net", "knockknock.readify.net\knockknock.readify.net.csproj", "{B746AF41-BD7B-425C-9F56-BFA916936753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseRedPill.Service.Business.UnitTest", "ExerciseRedPill.Service.Business.UnitTest\ExerciseRedPill.Service.Business.UnitTest.csproj", "{13FCAAE5-C937-4B5E-851C-524458B1E0E1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gmpatel.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ExerciseRedPill.Service\\ExerciseRedPill.Service.csproj
+		SccProjectName1 = ExerciseRedPill.Service
+		SccLocalPath1 = ExerciseRedPill.Service
+		SccProjectUniqueName2 = ExerciseRedPill.Service.Endpoint\\ExerciseRedPill.Service.Endpoint.csproj
+		SccProjectName2 = ExerciseRedPill.Service.Endpoint
+		SccLocalPath2 = ExerciseRedPill.Service.Endpoint
+		SccProjectUniqueName3 = ExerciseRedPill.Service.Business\\ExerciseRedPill.Service.Business.csproj
+		SccProjectName3 = ExerciseRedPill.Service.Business
+		SccLocalPath3 = ExerciseRedPill.Service.Business
+		SccProjectUniqueName4 = knockknock.readify.net\\knockknock.readify.net.csproj
+		SccProjectName4 = knockknock.readify.net
+		SccLocalPath4 = knockknock.readify.net
+		SccProjectUniqueName5 = ExerciseRedPill.Service.Business.UnitTest\\ExerciseRedPill.Service.Business.UnitTest.csproj
+		SccProjectName5 = ExerciseRedPill.Service.Business.UnitTest
+		SccLocalPath5 = ExerciseRedPill.Service.Business.UnitTest
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C08EC2B0-6F11-4A60-8A86-7806D8C9094D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08EC2B0-6F11-4A60-8A86-7806D8C9094D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08EC2B0-6F11-4A60-8A86-7806D8C9094D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08EC2B0-6F11-4A60-8A86-7806D8C9094D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBD1714-C5F5-43AC-A287-6B60B84A3580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBD1714-C5F5-43AC-A287-6B60B84A3580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBD1714-C5F5-43AC-A287-6B60B84A3580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBD1714-C5F5-43AC-A287-6B60B84A3580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D661DEC-5190-4C81-8728-6D5185AE4711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D661DEC-5190-4C81-8728-6D5185AE4711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D661DEC-5190-4C81-8728-6D5185AE4711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D661DEC-5190-4C81-8728-6D5185AE4711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B746AF41-BD7B-425C-9F56-BFA916936753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B746AF41-BD7B-425C-9F56-BFA916936753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B746AF41-BD7B-425C-9F56-BFA916936753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B746AF41-BD7B-425C-9F56-BFA916936753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FCAAE5-C937-4B5E-851C-524458B1E0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FCAAE5-C937-4B5E-851C-524458B1E0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FCAAE5-C937-4B5E-851C-524458B1E0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FCAAE5-C937-4B5E-851C-524458B1E0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
